@@ -1,0 +1,22 @@
+{
+  "name": "SimpleMavenFramework",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleMavenFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SimpleMavenFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gabriel Zolnierczuk": "gabriel.zolnierczuk@me.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SimpleMavenFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleMavenFramework/Classes/**/*"
+}

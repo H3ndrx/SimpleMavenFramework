@@ -1,0 +1,16 @@
+PODS:
+  - SimpleMavenFramework (0.1.0)
+
+DEPENDENCIES:
+  - SimpleMavenFramework (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleMavenFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleMavenFramework: 8d1f930677f716bcdaf90b04e565dceee53de45a
+
+PODFILE CHECKSUM: 2e9137db94252b57b11dca0d526f3aa1d3919068
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module SimpleMavenFramework {
+  umbrella header "SimpleMavenFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
