@@ -12,10 +12,11 @@
 		01DC78279D4AB3C95B8AF51D3115EBBC /* Pods-SimpleMavenFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A20B2700E97FF7F80DCCA1BB2E33031B /* Pods-SimpleMavenFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		277627863C1C0FBECE80D1EC8BFD407C /* Pods-SimpleMavenFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9E828DFDC26B9D423D938C2FBB1756 /* Pods-SimpleMavenFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B3EE1E231412B2800A53CDBA72D08C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6EABDC7D7A41FAA33B9B8C1F2745487D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 351AC01E2C496900DE66E314487F271C /* ReplaceMe.m */; };
+		6F546F0E52405C9FBFAD48379EB326D0 /* SimpleMavenFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53834C4620D78698264CB9424E8BD781 /* SimpleMavenFramework-dummy.m */; };
+		7B0DD38DC1452D81EEB8DAF03ABBD9CF /* SimpleMavenFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 901F4D0426454AF57CFA724E5C3239D0 /* SimpleMavenFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6D0B65E634E8826C517D51522C239C7 /* Pods-SimpleMavenFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC94FE76A95502802716109E0D541462 /* Pods-SimpleMavenFramework_Example-dummy.m */; };
-		C208B8152E07E0AB4B774DB0BC48E5FC /* SimpleMavenFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 901F4D0426454AF57CFA724E5C3239D0 /* SimpleMavenFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3346DB0583054F195B7F8D1B50E4541 /* SimpleMavenFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53834C4620D78698264CB9424E8BD781 /* SimpleMavenFramework-dummy.m */; };
+		A701ADE4DD0FF995F39A1F06510F1A7B /* SimpleMavenFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DC87781074CB8486B9BA91757A7B05CC /* SimpleMavenFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E049802CE919CFE5760B530956BEB817 /* SimpleMavenFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = DC047E9FC7F56F4ECDFBDD195D572BFC /* SimpleMavenFramework.m */; };
 		F3754287C1437995C64CA89FDFDC1ABF /* Pods-SimpleMavenFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2A8D7D0CE50ABD1F80DB5A8D384B8 /* Pods-SimpleMavenFramework_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +37,6 @@
 		2A32CD05990F6FD3073D2DF54786A3A8 /* Pods-SimpleMavenFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleMavenFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A9E828DFDC26B9D423D938C2FBB1756 /* Pods-SimpleMavenFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleMavenFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2B21AF0118C7F86930011EFFD6E48418 /* Pods-SimpleMavenFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMavenFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		351AC01E2C496900DE66E314487F271C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		39616E4971CC5C31BB22EBF44A349B43 /* Pods-SimpleMavenFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMavenFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		498FB43C548D62DC4D7438C5618193B2 /* SimpleMavenFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleMavenFramework.xcconfig; sourceTree = "<group>"; };
 		4ABA31C474D8028F157F1D66C2F75A6D /* Pods-SimpleMavenFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMavenFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		B030808616ABAD38E9874D7029D38A6B /* SimpleMavenFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleMavenFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D354B8D5FB3A81517565E716FB59CCB0 /* SimpleMavenFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleMavenFramework-prefix.pch"; sourceTree = "<group>"; };
+		DC047E9FC7F56F4ECDFBDD195D572BFC /* SimpleMavenFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SimpleMavenFramework.m; sourceTree = "<group>"; };
+		DC87781074CB8486B9BA91757A7B05CC /* SimpleMavenFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleMavenFramework.h; sourceTree = "<group>"; };
 		E829CE6587F1B7A7345C59731B296735 /* Pods-SimpleMavenFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleMavenFramework_Example.modulemap"; sourceTree = "<group>"; };
 		EE22F1A234B35A2F10D5425391B89BE5 /* Pods_SimpleMavenFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMavenFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E2A8D7D0CE50ABD1F80DB5A8D384B8 /* Pods-SimpleMavenFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleMavenFramework_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -95,11 +97,20 @@
 		156D5D64A3C06056C121B5FBD6DE2AC4 /* SimpleMavenFramework */ = {
 			isa = PBXGroup;
 			children = (
-				539289DE4BBE26129312366C870FE28C /* SimpleMavenFramework */,
+				4CBE0DA0FE4F977B844B0109B3C86F1C /* SimpleMavenFramework */,
 				7D8C219D30A1E54155159127ED3E9381 /* Support Files */,
 			);
 			name = SimpleMavenFramework;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		35EB7AF323E30D95262289EC34C0153F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC87781074CB8486B9BA91757A7B05CC /* SimpleMavenFramework.h */,
+				DC047E9FC7F56F4ECDFBDD195D572BFC /* SimpleMavenFramework.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3ACC2E7A601D6A06EEE74A91F9C28A3A /* Pods-SimpleMavenFramework_Example */ = {
@@ -128,10 +139,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		539289DE4BBE26129312366C870FE28C /* SimpleMavenFramework */ = {
+		4CBE0DA0FE4F977B844B0109B3C86F1C /* SimpleMavenFramework */ = {
 			isa = PBXGroup;
 			children = (
-				63FA9D79CA7E937FC2C4BCA7154933B9 /* Classes */,
+				35EB7AF323E30D95262289EC34C0153F /* Classes */,
 			);
 			path = SimpleMavenFramework;
 			sourceTree = "<group>";
@@ -142,14 +153,6 @@
 				156D5D64A3C06056C121B5FBD6DE2AC4 /* SimpleMavenFramework */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		63FA9D79CA7E937FC2C4BCA7154933B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				351AC01E2C496900DE66E314487F271C /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7D8C219D30A1E54155159127ED3E9381 /* Support Files */ = {
@@ -241,11 +244,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2FB5CA3A114C67C05C3332A3983A691 /* Headers */ = {
+		8E4195E0C9827209293BA16C708499D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C208B8152E07E0AB4B774DB0BC48E5FC /* SimpleMavenFramework-umbrella.h in Headers */,
+				7B0DD38DC1452D81EEB8DAF03ABBD9CF /* SimpleMavenFramework-umbrella.h in Headers */,
+				A701ADE4DD0FF995F39A1F06510F1A7B /* SimpleMavenFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +260,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D66D855CDC6A682008799C79D94D721F /* Build configuration list for PBXNativeTarget "SimpleMavenFramework" */;
 			buildPhases = (
-				3A50121CC0A75F7E29F145258FF7468A /* Sources */,
+				6D26C6AE9A225AFED9E0FA85F5883018 /* Sources */,
 				CE1D09E9479682C94E2D5E8DF5AC98B7 /* Frameworks */,
-				B2FB5CA3A114C67C05C3332A3983A691 /* Headers */,
+				8E4195E0C9827209293BA16C708499D4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,12 +345,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A50121CC0A75F7E29F145258FF7468A /* Sources */ = {
+		6D26C6AE9A225AFED9E0FA85F5883018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EABDC7D7A41FAA33B9B8C1F2745487D /* ReplaceMe.m in Sources */,
-				E3346DB0583054F195B7F8D1B50E4541 /* SimpleMavenFramework-dummy.m in Sources */,
+				6F546F0E52405C9FBFAD48379EB326D0 /* SimpleMavenFramework-dummy.m in Sources */,
+				E049802CE919CFE5760B530956BEB817 /* SimpleMavenFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "GZViewController.h"
+#import <SimpleMavenFramework/SimpleMavenFramework.h>
 
 @interface GZViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    SimpleMavenFramework *cc = [SimpleMavenFramework new];
+    NSLog(@"%@", [cc powertyWithBase:3 pow:5]);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
